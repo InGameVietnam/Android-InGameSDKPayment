@@ -43,7 +43,7 @@ The SDK includes 2 parts
 ####B. Configure:
 
 <b>[Notice] You need the following information before proceeding with the configuration:</b> <br/>
-<b><i<!--*Get ```<application_license_key>``` value from Google</b></i><br/>
+<b>Get ```<application_license_key>``` value from Google</b><br/>
 >  1> First, log into your <b>Google Play Developer Console</b>.<br/>
 >  2> Next, click on <b>All Applications</b> and find the application that you'd like to review.<br/>
 > 3>After that, go to the section <b>Services and APIs</b><br/>
@@ -140,12 +140,12 @@ The SDK includes 2 parts
 ###III. Declare variables, initiate and call SDK function from your application
 
 <b>Declare the following variables inside the main Activity class of applications:</b>
-
+```
 public static InGameSDK ingame_sdk = InGameSDK.getInstance(); // instance of InGameSDK
-    
+```    
 <b>Set the values to the function InGameSDK inside onCreate(...)</b>
-    <br>ingame_sdk.callSendInstallationEvent(this); ```//this function must be called before init sdk.```<br/>
-    <br>ingame_sdk.init(this, callback_url);<br/>
+    <br>```ingame_sdk.callSendInstallationEvent(this); //this function must be called before init sdk.```<br/>
+    <br>```ingame_sdk.init(this, callback_url);```<br/>
   
 
 <b>The parameters of ingame_sdk.init(...)</b>
