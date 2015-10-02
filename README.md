@@ -43,13 +43,13 @@ The SDK includes 2 parts
 ####B. Configure:
 
 <b>[Notice] You need the following information before proceeding with the configuration:</b> <br/>
-<!-- <b><i<!--*Get ```<application_license_key>``` value from Google</b></i><br/>
+<b><i<!--*Get ```<application_license_key>``` value from Google</b></i><br/>
 >  1> First, log into your <b>Google Play Developer Console</b>.<br/>
 >  2> Next, click on <b>All Applications</b> and find the application that you'd like to review.<br/>
 > 3>After that, go to the section <b>Services and APIs</b><br/>
 >![add](http://i757.photobucket.com/albums/xx212/ichirokudo/Ingame/Picture2_zpsoquddje9.jpg)<br/>
  You will find your license key under the section labeled <b>Your License Key For this Application</b>.
->-->
+>
 
 <b>[Notice] The values be located in the < > you need to replace them as follows:</b>
 > Replace ```<your_package_name>``` with your ```application packagename```.<br/>
@@ -141,8 +141,7 @@ The SDK includes 2 parts
 
 <b>Declare the following variables inside the main Activity class of applications:</b>
 
-
-	public static InGameSDK ingame_sdk = InGameSDK.getInstance(); // instance of InGameSDK
+public static InGameSDK ingame_sdk = InGameSDK.getInstance(); // instance of InGameSDK
     
 <b>Set the values to the function InGameSDK inside onCreate(...)</b>
     <br>ingame_sdk.callSendInstallationEvent(this); ```//this function must be called before init sdk.```<br/>
@@ -153,12 +152,10 @@ The SDK includes 2 parts
 <b>The parameters of ingame_sdk.init(...)</b>
 
 ```
-　　public void init(Activity context, boolean isButton, boolean isAutoLogin, String callback_url) {...}
+　　public void init(Activity context, String callback_url) {...}
 ```
 
 >```context```:  The main Activity of your application<br/>
->```isButton```: use SDK shorcut Button (True/False)<br/>
->```isAutoLogin```: use Auto login function (True/False)<br/>
 >```callback_url```: The call back link of your server<br/>
 
 <b>Add the following to the corresponding handle each functions</b>
