@@ -145,9 +145,8 @@ public static InGameSDK ingame_sdk = InGameSDK.getInstance(); // instance of InG
     
 <b>Set the values to the function InGameSDK inside onCreate(...)</b>
     <br>ingame_sdk.callSendInstallationEvent(this); ```//this function must be called before init sdk.```<br/>
-    <br>Listener listener = new Listener();```// init your listener```<br/>
-    <br>ingame_sdk.init(this, true, true, callback_url);<br/>
-    <br>ingame_sdk.setListener(listener);```//set your listener to sdk```<br/>
+    <br>ingame_sdk.init(this, callback_url);<br/>
+  
 
 <b>The parameters of ingame_sdk.init(...)</b>
 
@@ -182,7 +181,7 @@ public static InGameSDK ingame_sdk = InGameSDK.getInstance(); // instance of InG
 <b>Call the function:</b>
 ```
 　ingame_sdk.callPayment(String game_order); 
-　　// game_order: Game_order is payment transaction code from Developer (less than 50 characters)/
+　　// game_order: Game_order is payment transaction code from Developer (less than 50 characters)
 　
 ```
 
