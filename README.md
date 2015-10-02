@@ -1,6 +1,6 @@
 Other languages: [Vietnamese](README_VI.md) | [Chinese](README_CN.md)
 
-###DOCUMENT FOR INTEGRATED SYSTEM INGAMESDK
+###DOCUMENT FOR INTEGRATED SYSTEM INGAME PAYMENT SDK
 
 **Introduction**
 
@@ -178,7 +178,7 @@ public static InGameSDK ingame_sdk = InGameSDK.getInstance(); // instance of InG
 	}
 ```
 
-<b>Call the function:</b>
+<b>Call ```callPayment(..)``` function to make a payment:</b>
 ```
 　ingame_sdk.callPayment(String game_order); 
 　　// game_order: Game_order is payment transaction code from Developer (less than 50 characters)
