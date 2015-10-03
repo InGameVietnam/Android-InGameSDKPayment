@@ -3,7 +3,7 @@ Ngôn ngữ khác: [English](README.md) | [Chinese] (README_CN.md)
 
 **Giới thiệu**
 
-InGameSDK là hệ thống tích hợp tài khoản và thanh toán cho ứng dụng của bạn. SDK này cung cấp giải pháp cho các hình thức thanh toán: SMS, Thẻ cào điện thoại, Internet banking và Google Payment.
+InGameSDKPayment là hệ thống tích hợp tài khoản và thanh toán cho ứng dụng của bạn. SDK này cung cấp giải pháp cho các hình thức thanh toán: SMS, Thẻ cào điện thoại, Internet banking và Google Payment.
 
 **Các bước tích hợp SDK:**
 
