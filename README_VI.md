@@ -1,5 +1,5 @@
 Ngôn ngữ khác: [English](README.md) | [Chinese] (README_CN.md)
-##TÀI LIỆU HƯỚNG DẪN TÍCH HỢP HỆ THỐNG THANH TOÁN INGAMESDK
+###TÀI LIỆU HƯỚNG DẪN TÍCH HỢP HỆ THỐNG THANH TOÁN INGAMESDK
 
 **Giới thiệu**
 
