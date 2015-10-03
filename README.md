@@ -1,4 +1,4 @@
-Other languages: [Vietnamese](README_VI.md) | [Chinese](README_CN.md)
+Other languages: [Vietnamese](README_VI.md)
 
 ###DOCUMENT FOR INTEGRATED SYSTEM INGAME PAYMENT SDK
 
