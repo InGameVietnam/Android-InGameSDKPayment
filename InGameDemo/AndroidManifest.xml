@@ -52,7 +52,7 @@
             android:value="@string/App_Key" />
         <meta-data
             android:name="com.ingame.sandbox"
-            android:value="true" />
+            android:value="false" />
 
         <activity
             android:name="com.ingamesdk.ui.LoginActivity"

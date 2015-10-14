@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 	}
 
 	public void makePayment(View v) {
-		m_InGameSDK.callPayment(random());
+		m_InGameSDK.callPayment(System.currentTimeMillis()+"");
 	}
 
 	public static String random() {
